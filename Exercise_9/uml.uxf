@@ -1,0 +1,22 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>20</x><y>10</y><w>300</w><h>110</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+GuitarController
+--
+enum colors{GREEN,RED,YELLOW,BLUE,ORANGE}
+--
+PressFretButton(colors button)
+PressPick()
+PressTremelo()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>400</y><w>310</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+DanceController
+--
+enum direction{FORWARD,LEFT,RIGHT,BACK,MIDDLE}
+--
+Step(direction dir)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>30</y><w>210</w><h>80</h></coordinates><panel_attributes>Guitar
+--
+pressButton(button)
+PressPick()
+PressTremelo()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>70</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>200</y><w>240</w><h>110</h></coordinates><panel_attributes>DanceControllerAdapter
+--
+Guitar guitar
+--
+DanceControllerAdapter(Guitar guitar)
+Step(direction dir)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>300</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>110</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
