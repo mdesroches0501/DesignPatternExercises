@@ -1,0 +1,4 @@
+We could create a String for the name of the baby, whichever is crying. Then the monitor can check and grab the baby's 
+name using a getter function. The baby's name can then be displayed using a display function. Since the baby is part of 
+the subject, getting a specific name from the monitor limits the functionality of the code, which hinders the observer 
+design pattern.
